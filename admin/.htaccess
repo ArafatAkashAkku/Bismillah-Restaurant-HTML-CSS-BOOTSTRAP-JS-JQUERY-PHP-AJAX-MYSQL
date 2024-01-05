@@ -1,0 +1,12 @@
+# 404 page not found
+ErrorDocument 404 /404.php
+
+# 403 Forbidden
+Options -Indexes
+ErrorDocument 403 /404.php
+
+# remove php extension index.php to index 
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

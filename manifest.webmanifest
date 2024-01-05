@@ -1,0 +1,17 @@
+{
+    "lang": "en-us",
+    "name": "Bismillah Restaurant",
+    "short_name": "Bismillah Restaurant",
+    "description": "An online food delivery platform",
+    "start_url": "/",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/HomePicture512.png",
+            "sizes": "512x512"
+        }
+    ]
+}

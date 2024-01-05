@@ -1,0 +1,11 @@
+/config/config.php
+/images/admins/
+/images/favicon/
+/images/food/
+/images/logo/
+/images/users/
+/vendor
+/composer.json
+/composer.lock
+/PHPMailer
+/admin/PHPMailer
